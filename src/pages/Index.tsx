@@ -1,0 +1,46 @@
+import Header from "@/components/Header";
+import HeroSection from "@/components/HeroSection";
+import AboutUs from "@/components/landing/AboutUs";
+import BusinessEconomics from "@/components/landing/BusinessEconomics";
+import RSPP from "@/components/landing/RSPP";
+import TrustNumbers from "@/components/landing/TrustNumbers";
+import PurificationVideo from "@/components/landing/PurificationVideo";
+import WhySafe from "@/components/landing/WhySafe";
+import ClientJourney from "@/components/landing/ClientJourney";
+import Infrastructure from "@/components/landing/Infrastructure";
+import SocialVideos from "@/components/landing/SocialVideos";
+import Documents from "@/components/landing/Documents";
+import Team from "@/components/landing/Team";
+import ForWhom from "@/components/landing/ForWhom";
+import Gallery from "@/components/landing/Gallery";
+import FinalCTA from "@/components/landing/FinalCTA";
+import Footer from "@/components/Footer";
+import WaterBackground from "@/components/WaterBackground";
+
+const Index = () => {
+  return (
+    <div className="min-h-screen bg-background home-tight">
+      <Header />
+      <WaterBackground intensity="heavy" className="relative">
+        <HeroSection />
+        <AboutUs />
+        <RSPP />
+        <PurificationVideo />
+        <TrustNumbers />
+        <BusinessEconomics />
+        <Gallery />
+        <WhySafe />
+        <ClientJourney />
+        <SocialVideos />
+        <Infrastructure />
+        <Documents />
+        <Team />
+        <ForWhom />
+        <FinalCTA />
+      </WaterBackground>
+      <Footer />
+    </div>
+  );
+};
+
+export default Index;
