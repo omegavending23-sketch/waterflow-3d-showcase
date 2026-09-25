@@ -20,7 +20,6 @@ const Footer = () => {
             {[
               { label: "Главная", to: "/" },
               { label: "Каталог", to: "/catalog" },
-              { label: "Аренда", to: "/rental" },
               { label: "Контакты", to: "/contacts" },
             ].map((item) => (
               <Link
