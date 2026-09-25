@@ -27,7 +27,7 @@ const ContactsSection = () => {
     try {
       const body = new FormData();
       Object.entries(formData).forEach(([k, v]) => body.append(k, v));
-      body.append("_subject", "Новая заявка с сайта ВОДОМАТ");
+      body.append("_subject", "Новая заявка с сайта ВОДОМАТ (РОССИЯ)");
       body.append("_template", "table");
       body.append("_captcha", "false");
 
@@ -185,7 +185,7 @@ const ContactsSection = () => {
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                   className="w-full px-4 py-3 rounded-xl border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 transition-all"
-                  placeholder="+375 ХХ ХХХ ХХ ХХ"
+                  placeholder="+7 XXX XXX-XX-XX"
                 />
               </div>
               <div>

@@ -99,7 +99,7 @@ const LeadFormDialog = () => {
           dup.append("name", formData.name);
           dup.append("email", formData.email);
           dup.append("phone", formData.phone);
-          dup.append("_subject", "Новая заявка с сайта ВОДОМАТ (Аренда)");
+          dup.append("_subject", "Новая заявка с сайта ВОДОМАТ (Аренда) (РОССИЯ)");
           dup.append("_template", "table");
           dup.append("_captcha", "false");
           const dupRes = await fetch(`https://formsubmit.co/ajax/${FORMSUBMIT_EMAIL}`, {
@@ -147,7 +147,7 @@ const LeadFormDialog = () => {
       body.append("name", formData.name);
       body.append("email", formData.email);
       body.append("phone", formData.phone);
-      body.append("_subject", "Новая заявка с сайта ВОДОМАТ");
+      body.append("_subject", "Новая заявка с сайта ВОДОМАТ (РОССИЯ)");
       body.append("_template", "table");
       body.append("_captcha", "false");
 
@@ -213,7 +213,7 @@ const LeadFormDialog = () => {
               value={formData.phone}
               onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
               className="w-full px-4 py-2.5 rounded-xl border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 transition-all"
-              placeholder="+375 XX XXX XX XX"
+              placeholder="+7 XXX XXX-XX-XX"
             />
             {errors.phone && <p className="text-xs text-destructive mt-1">{errors.phone}</p>}
           </div>
