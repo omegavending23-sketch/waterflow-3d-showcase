@@ -69,7 +69,7 @@ const Header = () => {
             }`}
           >
             <span className="opacity-80">Отдел продаж оборудования</span>
-            <span className="font-bold text-sm">+ 375 29 779 80 80 (MAX, telegram)</span>
+            <span className="font-bold text-sm">+ 375 29 779 80 80 (MAX, Telegram)</span>
           </a>
           <a
             href="https://www.tiktok.com/@vodomatbelarus"
@@ -149,7 +149,7 @@ const Header = () => {
                 className="mt-2 px-5 py-3 rounded-xl text-center flex flex-col leading-tight text-foreground border border-border"
               >
                 <span className="text-xs opacity-80">Отдел продаж оборудования</span>
-                <span className="font-bold text-sm">+ 375 29 779 80 80 (MAX, telegram)</span>
+                <span className="font-bold text-sm">+ 375 29 779 80 80 (MAX, Telegram)</span>
               </a>
               <div className="mt-2 flex items-center justify-center gap-3">
                 <a
