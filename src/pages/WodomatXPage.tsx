@@ -220,7 +220,7 @@ const WodomatXPage = () => {
                   </div>
 
                   <p className="font-heading font-bold text-3xl md:text-4xl text-foreground mb-6">
-                    11 450 руб.
+                    299 000 руб.
                   </p>
                 </div>
               </motion.div>
