@@ -226,7 +226,7 @@ const WodomatSPage = () => {
                   </div>
 
                   <p className="font-heading font-bold text-3xl md:text-4xl text-foreground">
-                    10 450 руб.
+                    269 000 руб.
                   </p>
                 </div>
               </motion.div>
