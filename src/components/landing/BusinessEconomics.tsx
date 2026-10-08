@@ -18,7 +18,7 @@ const BusinessEconomics = () => (
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           onClick={() => openLeadForm()}
-          className="block w-full rounded-2xl overflow-hidden glass-card-hover cursor-pointer group"
+          className="block w-full cursor-pointer group"
           aria-label="Стать партнёром — открыть форму заявки"
         >
           <img
