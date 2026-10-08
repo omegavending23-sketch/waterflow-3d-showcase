@@ -27,7 +27,7 @@ const BusinessEconomics = () => (
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.15 }}
-            className="rounded-2xl overflow-hidden glass-card-hover aspect-[900/1285] bg-background/40"
+            className="rounded-2xl overflow-hidden glass-card-hover aspect-[900/1370] bg-background/40"
           >
             <img
               src={src}
