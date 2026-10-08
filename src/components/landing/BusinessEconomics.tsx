@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
-import img1 from "@/assets/econ-1.png.asset.json";
-import img2 from "@/assets/econ-2.png.asset.json";
-import img3 from "@/assets/econ-3.png.asset.json";
+import img1 from "@/assets/econ-1.png";
+import img2 from "@/assets/econ-2.png";
+import img3 from "@/assets/econ-3.png";
 
 const cards = [img1, img2, img3];
 
@@ -30,7 +30,7 @@ const BusinessEconomics = () => (
             className="rounded-2xl overflow-hidden glass-card-hover aspect-[900/1370] bg-background/40"
           >
             <img
-              src={src.url}
+              src={src}
               alt="Экономика бизнеса ВОДОМАТ"
               className="w-full h-full object-cover"
               loading="lazy"
