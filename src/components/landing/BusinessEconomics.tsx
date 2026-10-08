@@ -64,6 +64,7 @@ const BusinessEconomics = () => (
       </div>
     </div>
   </section>
+  </>
 );
 
 export default BusinessEconomics;
