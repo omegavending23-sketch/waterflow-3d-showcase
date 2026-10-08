@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import img1 from "@/assets/econ-1.png";
 import img2 from "@/assets/econ-2.png";
 import img3 from "@/assets/econ-3.png";
-import bannerAsset from "@/assets/banner-partner.png.asset.json";
+import banner from "@/assets/banner-partner.png";
 import { openLeadForm } from "@/components/LeadFormDialog";
 
 const cards = [img1, img2, img3];
@@ -22,7 +22,7 @@ const BusinessEconomics = () => (
           aria-label="Стать партнёром — открыть форму заявки"
         >
           <img
-            src={bannerAsset.url}
+            src={banner}
             alt="Экономика бизнеса ВОДОМАТ"
             className="w-full h-auto transition-transform duration-500 group-hover:scale-[1.01]"
             loading="lazy"
