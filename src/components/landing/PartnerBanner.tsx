@@ -16,7 +16,7 @@ const PartnerBanner = () => (
         className="block w-full cursor-pointer appearance-none border-0 bg-transparent p-0 text-left transition-transform duration-300 hover:scale-[1.01] active:scale-[0.99]"
       >
         <img
-          src={bannerAsset.url}
+          src={banner}
           alt="Стань партнёром ВОДОМАТ в своём регионе!"
           className="w-full h-auto"
           loading="lazy"
