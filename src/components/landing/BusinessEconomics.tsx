@@ -25,6 +25,7 @@ const BusinessEconomics = () => (
             src={banner}
             alt="Экономика бизнеса ВОДОМАТ"
             className="w-full h-auto transition-transform duration-500 group-hover:scale-[1.01]"
+            style={{ clipPath: "inset(3.8% 0 0 0)" }}
             loading="lazy"
           />
         </motion.button>
