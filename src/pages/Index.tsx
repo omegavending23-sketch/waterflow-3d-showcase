@@ -28,6 +28,7 @@ const Index = () => {
         <RSPP />
         <PurificationVideo />
         <TrustNumbers />
+        <PartnerBanner />
         <BusinessEconomics />
         <Gallery />
         <WhySafe />
