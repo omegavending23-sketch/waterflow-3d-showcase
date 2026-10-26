@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { openLeadForm } from "@/components/LeadFormDialog";
-import bannerAsset from "@/assets/banner-partner.png.asset.json";
+import banner from "@/assets/banner-partner.png";
 
 const PartnerBanner = () => (
   <section className="px-4 pt-14 md:pt-20">
