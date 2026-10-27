@@ -10,7 +10,7 @@ import img3 from "@/assets/econ-3.png";
 const cards = [img1, img2, img3];
 
 const BusinessEconomics = () => (
-  <section className="section-padding bg-muted/50">
+  <section className="section-padding bg-muted/50 !pt-[67.2px] md:!pt-[96px]">
     <div className="container mx-auto">
       <PartnerBanner />
 
