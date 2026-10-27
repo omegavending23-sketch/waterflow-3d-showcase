@@ -11,7 +11,7 @@ const PartnerBanner = () => (
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true }}
     aria-label="Стань партнёром ВОДОМАТ в своём регионе!"
-    className="mb-14 block w-full cursor-pointer appearance-none overflow-hidden rounded-2xl p-0 text-left glass-card-hover hover:border-primary hover:!scale-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+    className="mb-14 md:mb-20 block w-full cursor-pointer appearance-none overflow-hidden rounded-2xl p-0 text-left glass-card-hover hover:border-primary hover:!scale-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
   >
     <img
       src={banner}
