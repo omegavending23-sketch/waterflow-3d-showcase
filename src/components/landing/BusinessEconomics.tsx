@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 
+import PartnerBanner from "./PartnerBanner";
 import img1 from "@/assets/econ-1.png";
 import img2 from "@/assets/econ-2.png";
 import img3 from "@/assets/econ-3.png";
@@ -11,6 +12,8 @@ const cards = [img1, img2, img3];
 const BusinessEconomics = () => (
   <section className="section-padding bg-muted/50">
     <div className="container mx-auto">
+      <PartnerBanner />
+
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -29,7 +32,7 @@ const BusinessEconomics = () => (
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.15 }}
-            className="rounded-2xl overflow-hidden glass-card-hover aspect-[900/1370] bg-background/40"
+            className="rounded-2xl overflow-hidden glass-card-hover hover:border-primary aspect-[900/1370] bg-background/40"
           >
             <img
               src={src}
