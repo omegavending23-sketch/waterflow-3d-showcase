@@ -39,9 +39,12 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between px-4">
         <Link to="/" className="flex items-center gap-2 group">
           <Droplets className="w-8 h-8 text-primary transition-transform duration-300 group-hover:scale-110" />
-          <span className="font-heading font-bold text-xl tracking-tight">
-            <span className="text-primary">ВОДО</span>
-            <span className={scrolled || !isHome ? "text-foreground" : "text-primary-foreground"}>МАТ</span>
+          <span className="flex flex-col font-heading font-bold tracking-tight leading-none">
+            <span className="text-xl">
+              <span className="text-primary">ВОДО</span>
+              <span className={scrolled || !isHome ? "text-foreground" : "text-primary-foreground"}>МАТ</span>
+            </span>
+            <span className={`text-base leading-none mt-1 ${scrolled || !isHome ? "text-foreground" : "text-primary-foreground"}`}>РОССИЯ</span>
           </span>
         </Link>
 

@@ -8,9 +8,12 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <Link to="/" className="flex items-center gap-2">
             <Droplets className="w-6 h-6 text-primary" />
-            <span className="font-heading font-bold text-lg">
-              <span className="text-primary">ВОДО</span>
-              <span className="text-foreground">МАТ</span>
+            <span className="flex flex-col font-heading font-bold leading-none">
+              <span className="text-lg">
+                <span className="text-primary">ВОДО</span>
+                <span className="text-foreground">МАТ</span>
+              </span>
+              <span className="text-[14.4px] leading-none mt-1 text-foreground">РОССИЯ</span>
             </span>
           </Link>
           <p className="text-muted-foreground text-sm text-center">
