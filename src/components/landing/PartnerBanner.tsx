@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { openLeadForm } from "@/components/LeadFormDialog";
-import banner from "@/assets/banner-partner.png";
+import banner from "@/assets/stan-predstavitelem.png";
 
 const PartnerBanner = () => (
   <motion.button
